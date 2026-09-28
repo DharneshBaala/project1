@@ -10,30 +10,31 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: black;
-    color:white;
-    line-height: 1.5;
+    background: #0b0f19;
+    color: #ffffff;
+    line-height: 1.6;
 }
 
 /* HEADER */
 
 header {
     width: 100%;
-    padding: 10px;
+    min-height: 75px;
+    padding: 15px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:rgb(22, 2, 2);
-    border-bottom: 1px solid white;
+    background: #111827;
+    border-bottom: 1px solid #273244;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.Dharnesh {
+.dharnesh {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: #38bdf8;
 }
 
 nav {
@@ -44,13 +45,13 @@ nav {
 nav a {
     color: #d1d5db;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     transition: 0.3s;
 }
 
 nav a:hover,
 nav a.active {
-    color: rgb(85, 85, 218);
+    color: #38bdf8;
 }
 
 /* HOME */
@@ -128,20 +129,20 @@ nav a.active {
     background: #7dd3fc;
 }
 
-.btn.contacts {
+.btn.secondary {
     background: transparent;
     color: #38bdf8;
     border: 1px solid #38bdf8;
 }
 
-.btn.contacts:hover {
+.btn.secondary:hover {
     background: #38bdf8;
     color: #06111f;
 }
 
 /* COMMON PAGE */
 
-.page-section{
+.page-section {
     min-height: calc(100vh - 140px);
     padding: 80px 8%;
     max-width: 1200px;
@@ -252,15 +253,15 @@ nav a.active {
 }
 
 .progress-bar.html {
-    width: 100%;
-}
-
-.progress-bar.css {
     width: 90%;
 }
 
+.progress-bar.css {
+    width: 85%;
+}
+
 .progress-bar.javascript {
-    width: 50%;
+    width: 70%;
 }
 
 .progress-bar.responsive {
@@ -268,7 +269,7 @@ nav a.active {
 }
 
 .progress-bar.github {
-    width: 98%;
+    width: 75%;
 }
 
 /* PROJECTS */
